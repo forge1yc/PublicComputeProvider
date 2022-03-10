@@ -5,8 +5,13 @@ Security needs to delete AK, SK and other key information
 Download the latest version of the client in the release
 
 ### mac&linux
-pass
+In terminal run:
+
+go_mac_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
+go_linux_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
 
 ### win
-pass
+In cmd run:
+
+go_linux_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
 
