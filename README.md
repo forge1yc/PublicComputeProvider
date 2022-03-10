@@ -1,4 +1,2 @@
 # ComputeProviderByGo
-
-## configs/log.json配置说明
-# PublicComputeProvider
+安全需要删除了AK，SK等秘钥信息
