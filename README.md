@@ -8,6 +8,7 @@ Download the latest version of the client in the release
 In terminal run:
 
 go_mac_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
+
 go_linux_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
 
 ### win
