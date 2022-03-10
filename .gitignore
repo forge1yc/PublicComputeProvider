@@ -1,0 +1,10 @@
+BountyCloudProvider/.idea
+log
+*.pyc
+.settings.json
+.env.prod.db
+.env.prod.mq
+.env.prod
+caddydata*
+/bin/
+config.json

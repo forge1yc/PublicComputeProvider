@@ -1,0 +1,21 @@
+{
+  "LogLevel":"debug",
+
+  "FileWriter":{
+    "On" : true,
+    "DeleteCycle" : 2592000,
+
+    "LogPath": "./log/corona.log.info",
+    "RotateLogPath": "./log/corona.log.info.%Y%M%D%H",
+
+    "WfLogPath": "./log/corona.log.wf",
+    "RotateWfLogPath": "./log/corona.log.wf.%Y%M%D%H",
+
+    "PublicLogPath": "./log/public.log",
+    "RotatePublicLogPath": "./log/public.log.%Y%M%D%H"
+  },
+
+  "ConsoleWriter" :{
+    "On" : true
+  }
+}
