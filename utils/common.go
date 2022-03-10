@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"github.com/forge1yc/clog/clog"
 	"os/exec"
+	"regexp"
 	"strconv"
 	"strings"
 )
@@ -43,6 +44,18 @@ func PingCheck(ip string) bool {
 		//fmt.Printf("%+v\n","100% loss")
 		return false
 	}
+
+	pingResult := regexp.MustCompile(`time=(.*) ms`)
+	params := pingResult.FindStringSubmatch(string(result))
+	delay, err := strconv.ParseFloat(params[1], 32)
+	if err != nil {
+		clog.Error("get delay error, will set to private ip")
+		return false
+	}
+	if delay >= 1 {
+		return false
+	}
+
 
 	if strings.Contains(string(result),"0.0% packet loss") {
 		//fmt.Printf("%+v\n","100% loss")
