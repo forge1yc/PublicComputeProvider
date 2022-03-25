@@ -20,14 +20,14 @@ Download the latest version of the client in the release
 #### mac&linux
 In terminal run:
 
-go_mac_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
-
-go_linux_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
+>go_mac_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
+> 
+>go_linux_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
 
 #### win
 In cmd run:
 
-start go_linux_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
+> start go_linux_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
 
 ## ISSUE
 
@@ -35,12 +35,12 @@ start go_linux_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
 
 In cmd run:
 
-net stop hns
-
-net start hns 
-
-net stop winnat
-
-start docket 
-
-net start winnat
+> net stop hns
+> 
+> net start hns 
+> 
+> net stop winnat
+> 
+> start docket 
+> 
+> net start winnat
