@@ -32,11 +32,15 @@ start go_linux_provider_amd64 --username=xxxx --password=xxxx --cpu=1 --ram=1
 ## ISSUE
 
 ### win port bind fail
+
 In cmd run:
 
 net stop hns
+
 net start hns 
 
 net stop winnat
+
 start docket 
+
 net start winnat
