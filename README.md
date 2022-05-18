@@ -47,3 +47,6 @@ In cmd run:
 > start docket 
 > 
 > net start winnat
+
+### can't get the right public IP?
+> Check your pc firewall and make sure the icmp protocol is turned on
